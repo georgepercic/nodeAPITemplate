@@ -1,0 +1,17 @@
+.tmp
+.sass-cache
+.idea
+.idea/
+typings
+uploads/
+tmp/
+npm-debug.log
+
+selenium
+
+node_modules
+
+*.sublime-workspace
+*.sublime-project
+
+*.log

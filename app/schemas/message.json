@@ -1,0 +1,23 @@
+{
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+        "model",
+        "action",
+        "dump"
+    ],
+    "properties": {
+        "model": {
+            "type": "string"
+        },
+        "action": {
+            "type": "string",
+            "enum": [
+                "create", "read", "update", "delete", "login", "register"
+            ]
+        },
+        "dump": {
+            "type": "object"
+        }
+    }
+}

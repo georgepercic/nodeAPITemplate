@@ -1,0 +1,41 @@
+{
+  "name": "highr-base-api",
+  "version": "0.0.1",
+  "description": "Main Application Base API",
+  "main": "app/server.js",
+  "dependencies": {
+    "ajv": "^3.7.0",
+    "async": "^1.5.2",
+    "bcrypt": "^0.8.5",
+    "body-parser": "^1.15.0",
+    "bunyan": "^1.6.0",
+    "compression": "^1.6.1",
+    "connect": "^3.4.1",
+    "connect-route": "^0.1.5",
+    "cookie-parser": "^1.4.1",
+    "debug": "^2.2.0",
+    "formidable": "^1.0.17",
+    "jsonwebtoken": "^5.7.0",
+    "moment": "^2.11.2",
+    "mysql": "^2.10.2",
+    "node-uuid": "^1.4.7",
+    "qs": "^6.1.0",
+    "request": "^2.69.0",
+    "rethinkdb": "^2.2.2",
+    "sequelize": "^3.19.3",
+    "sequelize-fixtures": "^0.4.8",
+    "slug": "^0.9.1",
+    "thinky": "^2.2.5",
+    "validator": "^5.1.0"
+  },
+  "scripts": {
+    "start-dev": "export DEBUG=* && nodemon app/server.js",
+    "start": "pm2 start ./app/server.js --name=\"highr-base-api\" --watch --no-daemon",
+    "stop": "pm2 stop highr-base-api"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint-plugin-react": "^4.2.0"
+  }
+}

@@ -1,0 +1,38 @@
+{
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+        "robotName",
+        "screenName",
+        "email",
+        "password",
+        "passwordConfirm"
+    ],
+
+    "properties": {
+        "robotName": {
+            "type": "string",
+            "minLength": 1
+        },
+        "screenName": {
+            "type": "string",
+            "minLength": 1
+        },
+        "email": {
+            "type": "string",
+            "format": "email"
+        },
+        "password": {
+            "type": "string",
+            "minLength": 4
+        },
+        "passwordConfirm": {
+            "constant": {
+                "$data": "1/password"
+            }
+        },
+        "active": {
+            "type": "boolean"
+        }
+    }
+}

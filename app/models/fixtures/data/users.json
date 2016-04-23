@@ -1,0 +1,23 @@
+[ {
+    "model": "User",
+    "data": {
+        "id": "209d6732-d02c-4853-a536-8dca5e850fe5",
+        "active": true,
+        "robotName": "Foo",
+        "screenName": "Bar",
+        "email": "foo@bar.com",
+        "password": 1234,
+        "roles": [ "690616f7-08db-4783-9059-ff7d360dadb3" ]
+    }
+}, {
+    "model": "User",
+    "data": {
+        "id": "2de278d6-4a01-4981-b982-d2fc19c0afcf",
+        "active": false,
+        "robotName": "John",
+        "screenName": "Doe",
+        "email": "john@doe.com",
+        "password": 1234,
+        "roles": [ "a9a4ad53-deba-4106-adfe-4e19b61d7421" ]
+    }
+} ]

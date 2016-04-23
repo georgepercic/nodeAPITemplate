@@ -1,0 +1,25 @@
+[ {
+    "model": "Role",
+    "data": {
+        "id": "ce39634e-9e8d-44b1-97dd-88cb0d21b833",
+        "name": "Guest"
+    }
+}, {
+    "model": "Role",
+    "data": {
+        "id": "6d426a11-0135-45aa-b311-d50deb1f6f7e",
+        "name": "User"
+    }
+}, {
+    "model": "Role",
+    "data": {
+        "id": "690616f7-08db-4783-9059-ff7d360dadb3",
+        "name": "Content Administrator"
+    }
+}, {
+    "model": "Role",
+    "data": {
+        "id": "a9a4ad53-deba-4106-adfe-4e19b61d7421",
+        "name": "Sudo"
+    }
+} ]
